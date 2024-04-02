@@ -14,7 +14,6 @@ namespace Esfe.SysLoginEF.EN
 
         [Required]
         [StringLength(10)]
-        [DisplayName("Name Role")]
         public string Name { get; set; }
 
     }
