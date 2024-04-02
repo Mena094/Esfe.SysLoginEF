@@ -16,9 +16,9 @@ namespace Esfe.SysLoginEF.EN
         public string UserName { get; set; }
         [Required]
         [DisplayName("PassWord")]
+        [StringLength(10)]
         public string Password { get; set; }
         [Required]
-        [DisplayName("Role")]
         public int RoleId { get; set; }
         public Role Roles { get; set; }
 
