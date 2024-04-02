@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Esfe.SysLoginEF.DAL\Esfe.SysLoginEF.DAL.csproj" />
+    <ProjectReference Include="..\Esfe.SysLoginEF.EN\Esfe.SysLoginEF.EN.csproj" />
+  </ItemGroup>
+
+</Project>
